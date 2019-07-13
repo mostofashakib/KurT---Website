@@ -56,6 +56,10 @@ app.get("/blogdetail1", function(req, res){
     res.render("blog-details1");
 });
 
+app.get("/blogdetail2", function(req, res){
+    res.render("blog-details2");
+});
+
 // server Listen 
 
 app.listen(process.env.PORT, process.env.IP, function(){
