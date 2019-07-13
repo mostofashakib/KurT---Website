@@ -1,4 +1,4 @@
-# Mostofa Adib Shakib First-E-Porfolio
+# Mostofa Adib Shakib E-Porfolio
 
 A web application for Mostofa Adib Shakib to showcase his story as well as a platform for him to blog.
 
