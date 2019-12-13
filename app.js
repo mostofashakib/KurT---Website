@@ -62,6 +62,8 @@ app.get("/blogdetail2", function(req, res){
 
 // server Listen 
 
-app.listen(process.env.PORT, process.env.IP, function(){
+var port = process.env.PORT || 3000;
+
+app.listen(port, process.env.IP, function(){
    console.log("The server has started!");
 });
