@@ -1,6 +1,3 @@
-/***************************************
-/* Grille de mise en page pour le mobile
-***************************************/
 .grid_6,
 .grid_8,
 .grid_10,
@@ -8,12 +5,6 @@
 .container_16 {
 	margin: 0 10px;
 }
-
-/* 
-Nom du thème : Simple Vitae (ou Simple Curriculum ou Simple Resume)
-Description : Votre curriculum vitae sur Internet, un moyen supplémentaire de vous faire connaitre. Ce thème correspond à tous les types de métiers.
-Créateur : Christophe HERMANN (@chrishrmnn)
-*/
 
 /**********
 /* Header

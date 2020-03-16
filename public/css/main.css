@@ -1,11 +1,4 @@
 /*------------------------------------------------------------------
-Project:  Pato
-Version:  
-Last change:  
-Assigned to:  Kevin Nguyen
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
 [LAYOUT]
 
 * body
@@ -35,10 +28,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 -------------------------------------------------------------------*/
 
 
-
 /*[ FONT ]
 ///////////////////////////////////////////////////////////
 */
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 @import url('https://fonts.googleapis.com/css?family=Courgette');
@@ -1433,7 +1426,6 @@ body {padding-right: 0px !important;}
 }
 
 
-
 /*[ Item mainmenu ]
 ///////////////////////////////////////////////////////////
 */
@@ -1542,6 +1534,36 @@ body {padding-right: 0px !important;}
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+/*[ Projects ]
+ Custom CSS for the projects section ///////////////////////////
+*/
+
+.grid-projects {
+  /* Grid Fallback */
+  display: flex;
+  flex-wrap: wrap;
+  
+  /* Supports Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 1em;
+}
+
+.module-projects {
+  /* Demo-Specific Styles */
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
 }
 
 

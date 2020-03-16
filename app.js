@@ -40,6 +40,12 @@ app.get("/gallery", function(req, res){
     res.render("gallery");
 });
 
+// project page
+
+app.get("/project", function(req, res){
+    res.render("project");
+});
+
 // blog page
 
 app.get("/blog", function(req, res){
