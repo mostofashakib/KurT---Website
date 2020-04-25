@@ -1531,6 +1531,12 @@ body {padding-right: 0px !important;}
 
 .item-gallery {
   width: calc( (100% - 200px) / 3 ) ;
+  margin: 15px 25px;
+  position: relative;
+}
+
+.item-gallery-projects {
+  width: calc( (100% - 200px) / 3 ) ;
   margin: 40px 45px;
   position: relative;
 }

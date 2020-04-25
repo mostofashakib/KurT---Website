@@ -56,15 +56,15 @@ app.get("/blog", function(req, res){
 
 
 app.get("/blogdetail1", function(req, res){
-    res.render(require.resolve(__dirname + '\\views\\interviews\\fang.ejs'));
+    res.render("fang");
 });
 
 app.get("/blogdetail", function(req, res){
-    res.render(require.resolve(__dirname + '\\views\\steam\\kurt-steam.ejs'));
+    res.render("kurt-steam");
 });
 
 app.get("/blogdetail2", function(req, res){
-    res.render(require.resolve(__dirname + '\\views\\interviews\\redfin-interview.ejs'));
+    res.render("redfin-interview");
 });
 
 // server Listen 
