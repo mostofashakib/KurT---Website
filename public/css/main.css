@@ -190,6 +190,26 @@ button:hover {
 	cursor: pointer;
 }
 
+.project-section-custom-button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 70px;
+  position: absolute;
+  text-align: absolute;
+  font-size: 16px;
+  margin: 10px 12px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-section-custom-button:hover {
+  opacity: 1
+}
+
 iframe {
 	border: none !important;
 }
