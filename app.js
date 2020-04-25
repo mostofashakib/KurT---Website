@@ -54,16 +54,17 @@ app.get("/blog", function(req, res){
 
 // blog detail page
 
-app.get("/blogdetail", function(req, res){
-    res.render("blog-detail");
-});
 
 app.get("/blogdetail1", function(req, res){
-    res.render("blog-details1");
+    res.render(require.resolve(__dirname + '\\views\\interviews\\fang.ejs'));
+});
+
+app.get("/blogdetail", function(req, res){
+    res.render(require.resolve(__dirname + '\\views\\steam\\kurt-steam.ejs'));
 });
 
 app.get("/blogdetail2", function(req, res){
-    res.render("blog-details2");
+    res.render(require.resolve(__dirname + '\\views\\interviews\\redfin-interview.ejs'));
 });
 
 // server Listen 

@@ -221,7 +221,11 @@ button:hover {
 }
 
 .project-section-custom-button:hover {
-  opacity: 1
+  opacity: 1;
+}
+
+.project-section-custom-button-bottom:hover{
+  opacity: 1;
 }
 
 iframe {
