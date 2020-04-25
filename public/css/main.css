@@ -1492,9 +1492,15 @@ body {padding-right: 0px !important;}
 }
 
 .item-gallery {
-  width: calc( (100% - 140px) / 3 ) ;
-  margin: 30px 15px;
+  width: calc( (100% - 200px) / 3 ) ;
+  margin: 40px 45px;
   position: relative;
+}
+
+.item-gallery-custom-styling{
+  position: absolute;
+  top: 0px;
+  left: 40%;
 }
 
 .overlay-item-gallery {
