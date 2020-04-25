@@ -194,11 +194,25 @@ button:hover {
   background-color: #f4511e;
   border: none;
   color: white;
-  padding: 16px 70px;
-  position: absolute;
+  padding: 16px 40px;
   text-align: absolute;
   font-size: 16px;
-  margin: 10px 12px;
+  margin: 620px 110px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-section-custom-button-bottom{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 40px;
+  text-align: absolute;
+  font-size: 16px;
+  margin: 5px 180px;
   opacity: 0.6;
   transition: 0.3s;
   display: inline-block;
