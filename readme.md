@@ -10,4 +10,4 @@ A web application for Mostofa Adib Shakib to showcase his story as well as a pla
 
 Developed by Designed by Mostofa Adib Shakib
 
-Website: https://mynameiskurt.herokuapp.com/
+Website: https://mynameisadib.herokuapp.com/
