@@ -54,7 +54,6 @@ app.get("/blog", function(req, res){
 
 // blog detail page
 
-
 app.get("/blogdetail1", function(req, res){
     res.render("fang");
 });
