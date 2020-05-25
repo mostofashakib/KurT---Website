@@ -441,12 +441,13 @@ ol {
 	background: #f9f9f9;
 	position: relative;
 	z-index: 5;
+	padding-left: 250px;
 }
 
 .social-section .social-links a {
 	color: #484848;
 	font-size: 36px;
-	margin-right: 40px;
+	margin-right: 50px;
 }
 
 .social-section .social-link-warp {
