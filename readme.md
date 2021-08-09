@@ -1,8 +1,8 @@
 # Mostofa Adib Shakib E-Porfolio
 
-A web application for Mostofa Adib Shakib to showcase his story as well as a platform for him to blog.
+A dynamic E-Portfolio and a platform through which Adib will be able to share his story with the world through the blog section. The blog is dedicated to help people get more involved with hackathons, steam trading and competitive coding.
 
-• FrontEnd: HTML5, CSS3, JavaScript , jQuery, Bootstrap
+• FrontEnd: HTML5, CSS3, JavaScript , jQuery, Ajax, Bootstrap
 
 • Backend: NodeJS, Express, Restful routing, MongoDB
 
